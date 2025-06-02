@@ -16,7 +16,7 @@ otherLinks.addEventListener("click", () => {
 let scrollUp = document.getElementById("scroll-top");
 window.onscroll = function () {
   if (scrollY > 1000) {
-    scrollUp.style.right = "35px";
+    scrollUp.style.right = "25px";
   } else {
     scrollUp.style.right = "-70px";
   }
